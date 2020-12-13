@@ -110,19 +110,15 @@ namespace WindowsFormsApp1
             var qrCode = qrEncoder.Encode(qrString);
 
             var renderer = new GraphicsRenderer(new FixedModuleSize(5, QuietZoneModules.Two), Brushes.Black, Brushes.White);
-            var stream = new FileStream(@"D:\" + qrString + ".png", FileMode.Create);
-            renderer.WriteToStream(qrCode.Matrix, ImageFormat.Png, stream);
-
             MemoryStream ms = new MemoryStream();
+            renderer.WriteToStream(qrCode.Matrix, ImageFormat.Png, ms);
 
-            var imageTemporal = new Bitmap(stream);
+            var imageTemporal = new Bitmap(ms);
             var imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
 
             imagen.Save(ms, ImageFormat.Jpeg);
 
             var img = ms.ToArray();
-
-            //File.Delete(@"D:\qrcode.png");
 
             return Convert.ToBase64String(img);
 
