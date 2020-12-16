@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IQVZl3ZqzRE5USaK6y6gH+i8PMptLcC07YPcTyrxA9Xn0fwad+De9kN5kzljvHry/9H5VLo0fX17lsZMMykdwQ==",
+  "dgSpecHash": "ihN2K4ZiRLdSoOaY7m1VrW4Ta3gm0wYBfPQfFgYU4B8sj0CbA4RaeF0sCp9zQl8AvETH+2tIn9GwysIP8CvwHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhonf\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jhonf\\.nuget\\packages\\htmlagilitypack\\1.11.28\\htmlagilitypack.1.11.28.nupkg.sha512",
     "C:\\Users\\jhonf\\.nuget\\packages\\qrcode.net\\0.4.0\\qrcode.net.0.4.0.nupkg.sha512"
   ],
   "logs": [

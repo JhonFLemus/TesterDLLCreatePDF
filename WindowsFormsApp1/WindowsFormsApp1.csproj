@@ -7,12 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.28" />
     <PackageReference Include="QrCode.Net" Version="0.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="CreatePDF">
-      <HintPath>..\..\..\..\OneDrive\Escritorio\DEV\CreatePDF\CreatePDF\bin\Release\netcoreapp3.1\CreatePDF.dll</HintPath>
+      <HintPath>..\..\..\..\OneDrive\Escritorio\DEV\CreatePDF\CreatePDF\bin\Debug\netcoreapp3.1\CreatePDF.dll</HintPath>
     </Reference>
   </ItemGroup>
 
